@@ -1,5 +1,20 @@
 # Deliverable Interview Takehome
 
+### Instructions
+
+```
+pnpm install
+pnpm dev
+```
+
+### Jeremy notes:
+
+- Made filter genres function as the AND / union (eg. ['comedy', 'musical'] only returns movies with both genres)
+- AI call won't necessarily return a supported genre (eg. "get all comedy musicals" returns ['comedy', 'musicals'] but "musicals" should not be plural)
+- Directly navigating to movie list with filters via URL won't populate search bar
+
+---
+
 ### Overview
 
 - Clone this repository
